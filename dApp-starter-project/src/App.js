@@ -1,4 +1,4 @@
-// App.js
+// App.j
 /* すべてのwavesを保存する状態変数を定義 */
 const [allWaves, setAllWaves] = useState([]);
 
