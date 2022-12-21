@@ -5,6 +5,10 @@
   margin-top: 64px;
 }
 
+body {
+  background-image: url("https://img.freepik.com/free-vector/background-seamless-pattern-vector-with-cute-memphis_53876-105506.jpg?w=2000");
+}
+
 .dataContainer {
   display: flex;
   flex-direction: column;
@@ -27,8 +31,13 @@
 .waveButton {
   cursor: pointer;
   margin-top: 16px;
+  margin-bottom: 16px;
   padding: 8px;
   border: 0;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 82);
+}
+
+.text-area {
   border-radius: 5px;
-  
 }

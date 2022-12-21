@@ -15,7 +15,7 @@ const App = () => {
   const [allWaves, setAllWaves] = useState([]);
   console.log("currentAccount: ", currentAccount);
   /* デプロイされたコントラクトのアドレスを保持する変数を作成 */
-  const contractAddress = "0x3745fFe186FA5147821FacE5857d0BAb112D5253";
+  const contractAddress = "0x19e61bEcB979a0A7ECA5e2A63e459dEbA7770a42";
   /* コントラクトからすべてのwavesを取得するメソッドを作成 */
   /* ABIの内容を参照する変数を作成 */
   const contractABI = abi.abi;
@@ -224,6 +224,7 @@ const App = () => {
         {/* メッセージボックスを実装*/}
         {currentAccount && (
           <textarea
+            className="text-area"
             name="messageArea"
             placeholder="メッセージはこちら"
             type="text"
